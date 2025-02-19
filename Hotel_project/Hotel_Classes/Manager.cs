@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace Hotel_Classes
 {
-    internal sealed class Manager : Employee
+    public sealed class Manager : Employee
     {
         public Manager(int id, string name, string phone, double salary) : base(id, name, phone, salary) { }
 
@@ -15,7 +16,7 @@ namespace Hotel_Classes
         {
             Console.WriteLine("Manager is overseeing hotel operations.");
         }
-        public void DisplayInfo()
+        public override void DisplayInfo()
         {
             Console.WriteLine($"I am {Name}, and I am The Manager");
         }

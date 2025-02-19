@@ -2,7 +2,7 @@
 
 namespace Hotel_Classes
 {
-    internal abstract class Person
+    public abstract class Person
     {
         protected int Id;
         protected string Name;

@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
+using System.Xml.Linq;
 
 namespace Hotel_Classes
 {
-    internal class Customer : Person
+    public class Customer : Person
     {
         private List<RoomDetails> bookedRooms = new List<RoomDetails>();
-        public Customer(int id, string name, string phone): base(id, name, phone) { }
+        public Customer(int id, string name, string phone) : base(id, name, phone) { }
         public void BookRoom(RoomDetails room)
         {
             bookedRooms.Add(room);

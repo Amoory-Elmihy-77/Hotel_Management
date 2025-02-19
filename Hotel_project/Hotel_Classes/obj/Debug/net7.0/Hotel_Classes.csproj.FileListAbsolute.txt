@@ -1,0 +1,12 @@
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\bin\Debug\net7.0\Hotel_Classes.deps.json
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\bin\Debug\net7.0\Hotel_Classes.dll
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\bin\Debug\net7.0\Hotel_Classes.pdb
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\obj\Debug\net7.0\Hotel_Classes.csproj.AssemblyReference.cache
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\obj\Debug\net7.0\Hotel_Classes.GeneratedMSBuildEditorConfig.editorconfig
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\obj\Debug\net7.0\Hotel_Classes.AssemblyInfoInputs.cache
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\obj\Debug\net7.0\Hotel_Classes.AssemblyInfo.cs
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\obj\Debug\net7.0\Hotel_Classes.csproj.CoreCompileInputs.cache
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\obj\Debug\net7.0\Hotel_Classes.dll
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\obj\Debug\net7.0\refint\Hotel_Classes.dll
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\obj\Debug\net7.0\Hotel_Classes.pdb
+D:\رحلتي عشن ابقى مبرمج محترف\C#\OOP\Hotel_Project\Hotel_Classes\obj\Debug\net7.0\ref\Hotel_Classes.dll

@@ -8,10 +8,10 @@ namespace Hotel_Classes
         double CalculateSalary();
         void Work();
     }
-    internal abstract class Employee : Person, IEmployeeActions
+    public abstract class Employee : Person, IEmployeeActions
     {
         protected double Salary;
-        public Employee(int id, string name, string phone, double salary) :base(id, name, phone)
+        public Employee(int id, string name, string phone, double salary) : base(id, name, phone)
         {
             this.Salary = salary;
         }

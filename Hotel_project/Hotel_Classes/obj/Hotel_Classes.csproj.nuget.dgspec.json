@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_project\\Hotel_Classes\\Hotel_Classes.csproj": {}
+    "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\Hotel_Classes.csproj": {}
   },
   "projects": {
-    "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_project\\Hotel_Classes\\Hotel_Classes.csproj": {
+    "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\Hotel_Classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_project\\Hotel_Classes\\Hotel_Classes.csproj",
+        "projectUniqueName": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\Hotel_Classes.csproj",
         "projectName": "Hotel_Classes",
-        "projectPath": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_project\\Hotel_Classes\\Hotel_Classes.csproj",
+        "projectPath": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\Hotel_Classes.csproj",
         "packagesPath": "C:\\Users\\Fekra\\.nuget\\packages\\",
-        "outputPath": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_project\\Hotel_Classes\\obj\\",
+        "outputPath": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fekra\\AppData\\Roaming\\NuGet\\NuGet.Config",

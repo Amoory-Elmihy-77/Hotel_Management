@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Hotel_Classes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Hotel_Classes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hotel_Classes.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Hotel_Classes/1.0.0": {
+      "type": "project",
+      "path": "../Hotel_Classes/Hotel_Classes.csproj",
+      "msbuildProject": "../Hotel_Classes/Hotel_Classes.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Hotel_Classes >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Fekra\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\Hotel_Classes.csproj",
-      "projectName": "Hotel_Classes",
-      "projectPath": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\Hotel_Classes.csproj",
+      "projectUniqueName": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Project\\Hotel_Project.csproj",
+      "projectName": "Hotel_Project",
+      "projectPath": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Project\\Hotel_Project.csproj",
       "packagesPath": "C:\\Users\\Fekra\\.nuget\\packages\\",
-      "outputPath": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\obj\\",
+      "outputPath": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fekra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\Hotel_Classes.csproj": {
+              "projectPath": "D:\\رحلتي عشن ابقى مبرمج محترف\\C#\\OOP\\Hotel_Project\\Hotel_Classes\\Hotel_Classes.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
