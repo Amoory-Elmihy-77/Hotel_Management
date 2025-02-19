@@ -84,5 +84,4 @@
 
 ---
 ### **How to Proceed?**
-Now, you can start implementing your **Hotel Management System** step by step.  
-Let me know if you need help with any part! 🚀
+Now, you can start implementing your **Hotel Management System** step by step.
