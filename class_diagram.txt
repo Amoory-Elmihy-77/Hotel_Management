@@ -1,0 +1,88 @@
++-----------------------+
+|       Person         |   (Abstract Class)
+|-----------------------|
+| - Id: int           |
+| - Name: string      |
+| - Phone: string     |
+|-----------------------|
+| + DisplayInfo(): void |   (Abstract Method)
++-----------------------+
+         ▲
+         │
++-----------------------+
+|      Customer        |   (Inherits from Person)
+|-----------------------|
+| - bookedRooms: List<RoomDetails> |
+|-----------------------|
+| + BookRoom(room: RoomDetails): void |
+| + DisplayInfo(): void |
++-----------------------+
+
++-----------------------+
+|       Employee       |   (Abstract Class, Implements IEmployeeActions)
+|-----------------------|
+| - Salary: double    |
+|-----------------------|
+| + CalculateSalary(): double (Abstract) |
+| + Work(): void (Abstract) |
++-----------------------+
+         ▲
+         │
+ +-----------------+          +-----------------+
+ |   Manager      |          |  Receptionist  |
+ |-----------------|          |-----------------|
+ | + CalculateSalary() |      | + CalculateSalary() |
+ | + Work()           |      | + Work()           |
+ +-----------------+          +-----------------+
+
++-----------------------+
+| IEmployeeActions     |   (Interface)
+|-----------------------|
+| + CalculateSalary(): double |
+| + Work(): void |
++-----------------------+
+
++-----------------------+
+|       Hotel          |
+|-----------------------|
+| - Name: string      |
+| - rooms: List<RoomDetails> |
+| - customers: List<Customer> |
+| - employees: List<Employee> |
+|-----------------------|
+| + AddRoom(room: RoomDetails): void |
+| + AddCustomer(customer: Customer): void |
+| + AddEmployee(employee: Employee): void |
++-----------------------+
+
++-----------------------+
+|       RoomDetails    |   (Struct)
+|-----------------------|
+| - RoomNumber: int    |
+| - Type: RoomType     |
+| - Price: double      |
++-----------------------+
+
++-----------------------+
+|      RoomType        |   (Enum)
+|-----------------------|
+| Standard            |
+| Luxury              |
++-----------------------+
+
++-----------------------+
+|   HotelHelper        |   (Static Class)
+|-----------------------|
+| + PrintWelcomeMessage(): void |
++-----------------------+
+
++-----------------------+
+|  StringExtensions    |   (Static Class with Extension Method)
+|-----------------------|
+| + ToTitleCase(this string): string |
++-----------------------+
+
+---
+### **How to Proceed?**
+Now, you can start implementing your **Hotel Management System** step by step.  
+Let me know if you need help with any part! 🚀
